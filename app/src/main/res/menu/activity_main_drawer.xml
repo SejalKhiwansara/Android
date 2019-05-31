@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_layout"
+            android:icon="@mipmap/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_second_layout"
+            android:icon="@mipmap/news"
+            android:title="@string/godown" />
+        <item
+            android:id="@+id/nav_third_layout"
+            android:icon="@mipmap/price"
+            android:title="@string/seed" />
+        <item
+            android:id="@+id/nav_fourth_layout"
+            android:icon="@mipmap/disease"
+            android:title="@string/cropdis" />
+        <item
+            android:id="@+id/nav_fifth_layout"
+            android:icon="@mipmap/pesticide"
+            android:title="@string/pest" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@mipmap/contact_us"
+                android:title="@string/contact" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@mipmap/help"
+                android:title="@string/logout" />
+            <item
+                android:id="@+id/nav_lang"
+                android:icon="@mipmap/help"
+                android:title="@string/lang" />
+        </menu>
+    </item>
+
+</menu>

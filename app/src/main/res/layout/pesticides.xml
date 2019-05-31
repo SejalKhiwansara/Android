@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/nbg">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tdis"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btnformate1"
+                android:gravity="center"
+                android:padding="14dp"
+                android:text="PESTICIDES\n\n"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="
+    Pesticides can be grouped according to the types of pests which they kill:\n
+ 1. Insecticides - insects\n
+ 2. Herbicides - plants\n
+ 3. Rodenticides - rodents (rats and mice)\n
+ 4. Bactericides - bacteria\n
+ 5. Fungicides - fungi\n
+ 6. Larvicides - larvae" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="\n    1. Insecticides :\n"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+ It is important to know the target insect's habits when choosing the insecticide and which form (solid, liquid, granule or aerosol) to use. For example, flying pests such as adult mosquitoes are best attacked by aerosol sprays or fogs (droplets in the air), while crawling insects are best treated with surface powders, sprays or granules for dermal and/or oral entry. Insecticides kill insects by getting inside their bodies where they then act as poison. There are three different ways insecticides can get into an insect body. These are:\n
+ a) Dermal Entry : The insecticide enters the body through the skin.In insects,the skin is called the cuticle.Insecticides of this kind are called contact poisons.Dermal entry can happen when: Aerosol spray droplets hit the insect.Insects walk over and thereby come into contact with powder or granule forms of insecticide\n\n
+ b) Oral Entry : The insecticide enters the body through the mouth when the insect eats it.Insecticides of this type are called ingested poisons.The insecticide may be ingested by the insect: As a poisonous bait (a food to which insecticide has been added).When it 'grooms' (cleans) itself after the poison comes into contact with its body\n\n
+ c) Respiratory Entry : The insecticide is breathed in by the insect.These insecticides are called inhaled poisons.Insects do not breathe through the mouth as most animals do.They breathe through spiracles (small holes along the side of the abdomen).\n"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/insect"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="\n    2. Herbicides :\n"/>
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+ Herbicides are used to kill plants. This may be by:Killing that part of the plant which they touch.Killing the plant when they are absorbed into it through the leaves, stems or roots.\n"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/herbi"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="\n    3. Rodenticides :\n"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+ Rodenticides are pesticides that kill rodents.Rodents include not only rats and mice, but also squirrels, woodchucks, chipmunks, porcupines, nutria, and beavers. Although rodents play important roles in nature, they may sometimes require control. They can damage crops, violate housing codes, transmit disease, and in some cases cause ecological damage.\n
+ Rodenticides are usually formulated as baits,which are designed to attract animals.Flavorings may include fish oil, molasses or peanut butter. Baits used in agriculture and natural areas may contain ground meat, vegetables, grains, or fruits.2 These may be attractive to children and pets, so they should never be used or stored within their reach. Tamper-resistant bait stations make it even more difficult for accidents to happen.\n"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/roden"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="\n    4. Bactericides :\n"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+ Bactericides are chemical (such as bleach) or physical (such as heat) substances that kill bacteria, whether pathogenic or not. Bactericides can be:\n
+ a) Disinfectants - The most commonly used disinfectants are those applying active chlorine, oxygen, iodine, concentrated alcohols, phenolic substances and cationic surfactants.\n
+ b) Antiseptics - The most commonly used antiseptics are peroxides, phenolic compounds, alcohols and iodine.\n
+ c) Antibiotics - They slow growth or reproduction of bacteria and some antibiotics, which inhibit cell wall synthesis.\n
+ It is found that an improved corrosion inhibitor-bactericide is useful in retarding or preventing corrosion of metallic equipment in oil wells and connecting pipelines in intermediate storage to the refinery for crude oil.\n
+ Bactericide can also be used to help control bacteria growth in water and corrosion of tanks and piping.\n"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/bact"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="\n    5. Fungicides :\n"/>
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+ Fungicides are pesticides that kill or prevent the growth of fungi and their spores. They can be used to control fungi that damage plants, including rusts, mildews and blights. They might also be used to control mold and mildew in other settings. Fungicides work in a variety of ways, but most of them damage fungal cell membranes or interfere with energy production within fungal cells.\n
+ Keep these tips in mind when using fungicides:
+a) A fungal disease in plants can be misdiagnosed easily. Check with your local county extension office for help identifying plant disease. They may also be able to recommend a treatment strategy for your lawn or garden.b) Often, plant diseases are transmitted when leaves are wet. Ground level watering and good air circulation can be used to keep leaves dry.
+c) Many fungicides remain on the surface of plant tissues and do not spread throughout the plant.Others penetrate the cuticle and circulate through plant tissues.d) Pruning shears and other tools can carry plant diseases from one plant to another. Learn about garden sanitation to prevent spreading fungal pathogens yourself.
+e) Although they can slow or stop the development of new symptoms, many fungicides are designed only to prevent disease. These are not highly effective after symptoms have developed.\n"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/fungi"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="\n    6. Larvicides :\n"/>
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+ A larvicide (alternatively larvacide) is an insecticide that is specifically targeted against the larval life stage of an insect. Their most common use is against mosquitoes. Larvicides may be contact poisons, stomach poisons, growth regulators, or (increasingly) biological control agents.\n\n"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/larvi"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="\n  ** CALCULATING CORRECT AMOUNT OF CHEMICALS\n\n"/>
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+ Pesticides purchased for spraying programs will come in the form of pesticide concentrate. This concentrate is very strong and must be diluted before use by mixing a small volume (amount) of the pesticide with a larger volume of water.\n
+ It is necessary to work out how much of the concentrate will be needed for the spraying job and how much water it must be mixed with. Only enough pesticide solution to fill the sprayer should be mixed at any one time.\n
+ The steps for calculating the correct amount of chemical are outlined below.\n
+ a) Check the pesticide label to find the application rate at which the concentrate should be used. The application rate of a particular pesticide is the amount of mixed pesticide solution (chemical plus water) which is needed to treat an area of a particular size.
+ Some examples are:\n
+ * Use 10 ml concentrate per 5 L water to cover 40 square metres (40 m2). * Mix 5 g powder with 5 L water to cover 20 square metres (20 m2). * Use 1 packet of powder per 10 L water.\n
+ b) Work out the area to be sprayed. This may be the area of a floor or the combined areas of skirting boards or the combined area of external (outside) building foundations.\n
+ c) Using the application rate stated in the instructions, calculate the amount of pesticide concentrate needed for the size of the area to be sprayed.\n
+ d) Calculate how much water is needed to dilute the pesticide to the correct strength.\n
+ It is very important that these calculations are done correctly. If they are not done correctly the pesticide will not be the right strength for the job. Help can be obtained from people such as the community nurse, school teacher, EHP supervisor or an EHO.\n\n"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="  ** MIXING THE CHEMICALS\n\n"/>
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+ Once the amount of the concentrate and the amount of water needed to dilute it have been worked out, the water and the chemical can be mixed.This dilution exercise should be carried out carefully because the pesticide chemical is dangerous. \n
+ These are the rules which should always be followed when diluting pesticide concentrates:\n
+ a) Always work in the open and avoid breathing the fumes.\n
+ b) Read the label and put on the appropriate protective equipment as indicated.Depending upon the type of pesticide it may be appropriate to wear a respirator.\n
+ c) Mix water and concentrate in a large clean container, such as a 10 L bucket. This container and any measuring cups must be used only for this purpose. They should be clearly labelled ‘DANGER - POISON: DO NOT TOUCH’. When they are not being used they should be stored safely in the equipment shed.\n
+ d) Put a small amount of water into the bucket first. Place the required amount of pesticide into the water.Rinse the measuring cup with clean water and add this solution to the bucket. Stir it so that it is thoroughly mixed into the water. Pour this solution into the sprayer tank and then add the rest of the water to the tank. Make sure this water is well mixed into the pesticide solution.\n
+ e) Stir the solution carefully with a flat paddle (stirrer) and avoid splashing.The safest paddles are made of plastic, aluminium or steel because these materials are impervious. This means the pesticide cannot soak into them. They can be washed and used again. Wooden paddles soak up the pesticide and must be disposed of immediately after use. This must be done with extreme care. It is best to bury them along with the empty pesticide containers.\n
+ *** Never leave the paddles lying around after use as they will be a danger to small children and animals. "/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

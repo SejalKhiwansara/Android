@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/nbg"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="118dp"
+                android:background="@drawable/btnformate1"
+                android:gravity="center"
+                android:padding="14dp"
+                android:text="ABOUT US"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n
+ App Name : My Farm\n
+ Developed by : Prachi Sarode\n
+                         Madhura Tayade\n
+                         Manali Khot\n
+                         Sejal Khiwansara\n\n
+        MyFarm is an omnibus mobile app developed to help farmers by providing relevant information to them quickly. With click of a button, they can get information on weather, dealers, market price, agro-advisories, plant protection, pesticides, etc. \n
+        Unique features like price alerts, news , godown information and minimum and maximum market price of commodities have been addes to empower farmer in best possible way. It provides bridge between farmer and consumer for buying and selling their products and thereby eliminating the middlemen involved."
+                android:textSize="20dp"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

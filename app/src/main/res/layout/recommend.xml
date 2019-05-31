@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp"
+    android:background="@mipmap/p2">
+
+    <ScrollView
+        android:id="@+id/scrollView7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tdis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btnformate1"
+                android:gravity="center"
+                android:padding="14dp"
+                android:text="Recommendations..!!\n
+    This section helps you to select the best of the best farmer. It displays list of all farmers along with the ratings they have obtained. So it will be easy for you to decide from whom to buy crops..!!"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/fnlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnformate1"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:padding="14dp"
+        android:textAlignment="center"
+        android:text="FARMERS"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/ratelist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/btnformate1"
+        android:gravity="center"
+        android:padding="14dp"
+        android:textAlignment="center"
+        android:text="RATINGS"
+        android:textColor="#000" />
+</LinearLayout>
+            <ListView
+                android:id="@+id/lv"
+                android:layout_width="wrap_content"
+                android:layout_height="700dp"
+                android:layout_marginTop="15dp">
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
+
+
+

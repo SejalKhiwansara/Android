@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/nbg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/btnformate1"
+                    android:gravity="center"
+                    android:padding="14dp"
+                    android:text="CROP DISEASES"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n WHEAT\n"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" 1. Bacterial leaf streak and black chaff \n Symptoms : Sudden appearance of water-soaked, light brown, elongated lesions on upper leaves; lesions quickly dry out and turn into necrotic streaks on the leaves; black stripes occur on glumes and purple black lesions appear on rachis and peduncle if infection is in the head\n Cause : Bacterium\n Comments : Disease spread through infected seed and splashing water\n Management : Avoid planting seed from infected fields; avoid overhead irrigation; plant less susceptible cultivars.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/wheat1"
+                    />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="\n 2. Basal glume rot Pseudomonas syringae\n Symptoms : Dull brown to black discoloration of glumes which is more pronounced on the inner side; seeds may be shriveled; if infection is severe, entire glume may be discolored; small water-soaked lesions may form on leaves\n Cause : Bacterium\n Comments : Disease spreads primarily through infected seed\n Management : Avoid planting seed from plants grown in fields where the disease is known to be present.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:src="@drawable/wheat2" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="\n 3. Barley yellow dwarf Barley yellow dwarf virus (BYDV)\n Symptoms : Yellowing leaves, particularly the flag leaves; stunted plants due to shortened internodes; leaves may be red, purpple, orange, green or brown; leaves may be distorted\n Cause : Virus\n Comments : Transmitted by a few species of aphid; spread of disease is completely dependent on the movement of aphid vectors\n Management : Control of aphid population can provide some control of disease but is dependent on knowing which aphids are active in the field; planting to avoid periods of peak aphid activity can provide a measure of control.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="@drawable/wheat3" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="\n 4. Common bunt (Stinking smut)\n Symptoms : Slender heads which take longer to turn color than healthy heads; glumes spread apart to reveal spori or bunt balls (balls containing fungal spores) which are a similar size to normal kernel but are gray-brown in color; bunt balls break open on harvest and give off a fishy odour\n Cause : Fungus\n Comments : Disease is most commonly introduced through infected seed although spores are spread by wind\n Management : Disease can be controlled by planting resistant wheat varieties, planting disease-free seed and using a seed treatment prior to planting; disease may also be avoided by planting wheat early in the Fall and by shallow seeding.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/wheat4"/>
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n JOWAR\n"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" 1. Anthracnose\n Symptoms : Small, circular red lesions with a distinct margin develop on leaves and stems; lesions may enalrge during humid weather conditions; plant becomes defoliated; tan spots with red margins may appear on upper parts of stems; plants may die before reaching maturity\n Cause : Fungus\n Comments : Disease emergence favors warm temperatures\n Management : Plant resistant varieties; remove other susceptible plants e.g. Johnson grass; rotate crops; plow crop debris into soil after harvest.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/jowar11"/>
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="\n 2. Charcoal rot\n Symptoms : Lower stalk appears shredded and dark gray; small, black fungal structures on internal parts of the stalk giving tissues a dark gray color; pith decomposes leaving only the outer stem tissue; infected plants will usually lodge\n Cause : Fungus\n Comments : Damage from the disease is usually greatest in fields which are subject to drought stress\n Management : Plant varieties with strong stems; plant jowar in fertile soil and avoid overcrowding unless using irrigation; use irrigation during flowering and grain-filling to reduce drought stress; rotate crop with cotton to reduce disease severity.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/jowar2" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="\n 3. Gray leaf spot\n Symptoms : Small red spots on leaves which enlarge to form rectangular lesions between leaf veins; lesions may coalesce to form stripes or irregular blotches\n Cause : Fungus\n Comments : Disease emergence is favored by periods of warm and wet weather during the growing season\n Management : Disease can be controlled by planting jowar varieties that or tolerant or resistant to the disease.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/jowar1" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="\n 4. Rough spot\n Symptoms : Small, oval or elongated red spots on leaves; lesions coalesce and develop hard black fungal fruiting bodies, giving the leaves a sandpaper-like texture; rough areas may become large enough to kill entire leaf Cause : Fungus\n Comments : Fungus survives between growing seasons on crop debris\n Management : Jowar varieties with a high level of resistance should be planted in areas where the disease is problematic but the disease generally causes only minor losses when present.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/jowzar5" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="\n SOYABEAN\n"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" 1. Armyworms (Beet armyworm, Western striped armyworm)\n Symptoms : Singular, or closely grouped circular to irregularly shaped holes in foliage; heavy feeding by young larvae leads to skeletonized leaves; shallow, dry wounds on fruit; egg clusters of 50-150 eggs may be present on the leaves; egg clusters are covered in a whitish scale which gives the cluster a cottony or fuzzy appearance; young larvae are pale green to yellow in color while older larvae are generally darker green with a dark and light line running along the side of their body and a pink or yellow underside\n Cause : Insect\n Comments : Insect can go through 3–5 generations a year\n Management : Organic methods of controlling armyworms include biological control by natural enemies which parasitize the larvae and the application of Bacillus thuringiensis; there are chemicals available for commercial control but many that are available for the home garden do not provide adequate control of the larvae.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/soya1" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="\n 2. Bacterial blight\n Symptoms : Water-soaked spots on leaves which enlarge and become necrotic; spots may be surrounded by a zone of yellow discoloration; lesions coalesce and give plant a burned appearance; leaves that die remain attached to plant; circular, sunken, red-brown lesion may be present on pods; pod lesions may ooze during humid conditions\n Cause : Bacterium\n Comments : Disease can be introduced by contaminated seed; bacteria overwinters in crop debris; disease emergence favored by warm temperatures; spread is greatest during humid, wet weather conditions\n Management : Plant only certified seed; plant resistant varieties; treat seeds with an appropriate antibiotic prior to planting to kill off bacteria; spray plants with an appropriate protective copper based fungicide before appearance of symptoms.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/soya2"/>
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="\n BAJRA\n"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" 1. Smut\n Symptoms : Smut is a disease of bajra grain-bearing heads (inflorescences) that can significantly reduce grain yields, wherever the crop is grown. Infected florets develop as plump sacs or sori, initially green in colour and then turning dark brown or black as the sori mature. The sori are filled with black spores of the causal fungus, hence the name smut.\n Cause : Fungus\n Comments : Biology and epidemiology-Individual florets are infected by air-borne spores of the causal fungus when the inflorescences are at the protogynous stage. i.e. when the stigmas have emerged before pollination has occurred. Mature spores released from the sori when the crop is threshed are mixed with seed from non-infected florets, and these are the source of infection for the subsequent crop.\n Management : Smut is best managed by the use of resistant cultivars.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bajra1" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="\n 2. Ergot\n Symptoms : Ergot is a disease of bajra grain-bearing heads (inflorescences). The first sign of ergot infection in bajra is the appearance of viscous creamy-pink exudations, called honeydew on the flowering heads. Subsequently hard brown spiky structures are formed, called sclerotia.\n Cause : Fungus\n Comments : Ergot reduces grain yields and constitutes a health hazard to humans and animals that consume bajra products contaminated with the alkaloid-containing sclerotia of the causal fungus. It is a particularly serious disease of bajra F1 hybrids. Biology and Epidemiology - Infection of the individual florets on a bajra inflorescence occurs via the stigmas, i.e. the white feathery structures through which the florets are fertilised following pollination. Initial infection is from spores (ascospores) produced from sclerotia in the soil or in crop debris. Secondary infection is from the spores (conidia) produced in the honeydew. Once the stigmas have been pollinated they rapidly wither and are no longer available as the infection route for the ergot fungus. Bajra plants are protogynous, with the stigmas emerging before the anthers. Bajra F1 hybrids demonstrate synchronous flowering, so that most of the inflorescences in a crop will be at the protogynous stage with little or no pollen available, which makes F1 hybrids particularly vulnerable to ergot infection. Heavy rain at flowering time washes down pollen, extending the period at which the stigmas are available for infection as well as providing ideal conditions for germination and sporulation of the ergot fungus.\n Management : Ergot can be managed in bajra, through the use of host plant resistance, pollen management, avoidance and sanitation. Host plant resistance to ergot can be developed using appropriate inoculation, hybridisation and selection techniques. Sources of host plant resistance are developed and made available by public- and private-sector seed companies. It has been shown in research station experiments that using pollen donor plants to coincide with the protogynous stage of crop flowering can significantly reduce infection in ergot susceptible bajra F1 hybrids. Avoidance of ergot is achieved through the selection of cultivars that flower during periods of fine dry weather, so that pollen wash and pathogen germination are minimised. Sanitation measures involve the removal and burning of infected inflorescences as soon ergot symptoms are seen. When this is done at the honeydew stage it will reduce secondary spread within the crop. When done at the sclerotial stage it will reduce the inoculum bank for infections in subsequent seasons and reduce the dangers of consumption of the the poisonous alkaloids getting into food and feed products.\n"/>
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bajra2" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="\n COTTON\n"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" 1. Cotton bollworm\n Symptoms : Holes chewed in bases of bolls and insect frass around holes;oung caterpillars are cream-white in color with a black head and black hairs; older larvae may be yellow-green to almost black in color with fine white lines along their body and black spots at the base of hairs; eggs are laid singly on both upper and lower leaf surfaces and are initially creamy white but develop a brown-red ring after 24 hours and darken prior to hatching.\n Cause : Insect\n Comments : Adult insect is a pale green to tan, medium sized moth; insect is also very damaging pests of corn; insect overwinters as pupae in the soil.\n Management : Monitor plants for eggs and young larvae and also natural enemies that could be damaged by chemicals; Bacillus thuringiensis or Entrust SC may be applied to control insects on organically grown plants; appropriate chemical treatment may be required for control in commercial plantations.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cotton1" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="\n 2. Armyworm\n Symptoms : Holes in bracts associated with bolls; heavy feeding by young larvae leads to skeletonized leaves; shallow, dry wounds on fruit; egg clusters of 50-150 eggs may be present on the leaves; egg clusters are covered in a whitish scale which gives the cluster a cottony or fuzzy appearance; young larvae are pale green to yellow in color while older larvae are generally darker green with a dark and light line running along the side of their body and a pink or yellow underside.\n Cause : Insect\n Comments : Insect can go through 3–5 generations a year.\n Management : Organic methods of controlling armyworms include biological control by natural enemies which parasitize the larvae and the application of Bacillus thuringiensis; there are chemicals available for commercial control but many that are available for the home garden do not provide adequate control of the larvae.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cotton2" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="\n 3. Asochyta blight\n Symptoms : Brown or gray spots on leaves surrounded by a red halo; elongated red-purple cankers on stems cause the wilting and death of leaves above.\n Cause : Fungus\n Comments : Disease emergence is favored by cool, wet weather.\n Management : No fungicides are currently registered for use in cotton; plow crop debris into soil after harvest; crop rotation has little to no effect of control of disease.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cotton3" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="\n CORN(MAIZE)\n"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" 1. Common smut (Boil smut, Blister smut)\n Symptoms : Tumor-like galls on plant tissues which are initially green-white or silvery white in color; interior of galls darken and turn into masses of powdery dark brown or black spores (with the exception of galls on leaves which remain greenish in color); galls may reach up to 15 cm in diameter and are common on ears, tassels, shoots or midrib of leaves; galls on leaves remain small and do not burst open.\n Cause : Fungus\n Comments : Fungus overwinters on crop debris or in the soil and can survive for several years; fungus usually enters the plant through wounds; application of nitrogen fertilizer increases incidence of disease, while application of phosphorous fertilizer decreases infection.\n Management : Although many practices may be recommended for the control of common smut, the only method that is completely effective is to grow resistant corn hybrids.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corn1" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="\n 2. Giberrella stalk and ear rot\n Symptoms : Plants wilting and leaves changing color from light to dull green; lower stalk turns straw yellow; internal stalk tissue breaks down; interior of stalk has a red discoloration; black fungal fruiting bodies may be visible on the stalk, often at internodes, and can be easily scraped off; if fungal infection affects the ears, it produces a red mold at the tips of the ear which spreads down; early infection may result in the ear being covered in pink mycelium which causes the corn husk to adhere to the ear.\n Cause : Fungus\n Comments : Fungus can enter through wounds to stalk or ear; ear rot is caused by the fungus infecting silks and moving down through the ear; fungus survives on corn debris in soil and on debris of other host plants such as wheat.\n Management : Stressed plants are more susceptible to Gibberella - providing adequate fertilization and irrigation can help reduce incidence of disease; control insects, especially stem and ear borers; hybrids differ in their susceptibility to the disease and further information is required in order to develop specific control measures.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corn2"/>
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="\n 3. Common rust\n Symptoms : Oval or elongated cinnamon brown pustules on upper and lower surfaces of leaves; pustules rupture and release powdery red spores; pustules turn dark brown-black as they mature and release dark brown powdery spores; if infection is severe, pustules may appear on tassels and ears and leaves may begin to yellow; in partially resistant corn hybrids, symptoms appear as chlorotic or necrotic flecks on the leaves which release little or no spore.\n Cause : Fungus\n Comments : Disease is spread by wind-borne spores; some of the most popularly grown sweet corn varieties have little or no resistance to the disease.\n Management : The most effective method of controlling the disease is to plant resistant hybrids; application of appropriate fungicides may provide some degree on control and reduce disease severity; fungicides are most effective when the amount of secondary inoculum is still low, generally when plants only have a few rust pustules per leaf.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corn3" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="\n BEANS\n"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" 1. Anthracnose\n Symptoms : Small, dark brown to black lesions on cotyledons; oval or eye-shaped lesions on stems which turn sunken and brown with purple to red margins; stems may break if cankers weaken stem; pods drying and shrinking above areas of visible symptoms; reddish brown spots on pods which become circular and sunken with rust colored margin.\n Cause : Fungus\n Comments : Disease transmitted through infected seed; fungus can survive in crop debris in soil and reinfect crop the following season.\n Management : Plant resistant varieties; use certified disease free seed; avoid sprinkler irrigation, water plants at base; plow bean crop debris into soil.\n" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/beans1" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="\n 2. White mold\n Symptoms : Flowers covered in white, cottony fungal growth; small, circular, dark green, water-soaked lesions on pods leaves and branches which enlarge and become slimy; cottony white growth may be visible on lesions during periods of high humidity; death of branches and/or entire plant.\n Cause : Fungus\n Comments : Fungus can survive in soil for in excess of 5 years; disease can be spread by wind, contaminated irrigation water and by infected seeds.\n Management : There is no true immunity to white mold in any bean varieties; rotate crops with non-hosts like cereals and corn; plant rows parallel to direction of prevailing winds to prevent spread of disease from secondary hosts nearby; avoid excessive nitrogen fertilizer; use a wide row spacing.\n\n" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/beans2" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

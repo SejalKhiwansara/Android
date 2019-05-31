@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/nbg">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/titledeal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btnformate1"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="SEED DEALERS"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="\n
+    Dealers in Aurangabad Region:\n" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="
+1.Company Name: Sipani Krishi Anusandhan\n
+  Address : R.G Housing Society,Padegaon.\n\n"/>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+2.Company Name: Prabhat Agri. Biotech.Ltd\n
+  Address : C2,Sara Garden,N 2,Cidco,Mukundwadi.\n\n"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+3.Company Name: Nath Biogene Ltd\n
+  Address : J 48,MIDC ,Aurangabad.\n\n"/>
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+4.Company Name: Shridata Krushi Seva Kendra\n
+  Address : H.No-160,Chorwaghalgaon,Vaijapur\n\n"/>
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+5.Company Name: Hira seeds\n
+  Address : Post Deulgaon Bazar,Silod\n\n"/>
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+6.Company Name: Shri Rama Agri Genetics Pvt Ltd\n
+  Address : Plot no 33,Behind Sunder Arcade,Waluj,Aurangabad\n\n"/>
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+7.Company Name: Sungrow Seed Pvt Ltd\n
+  Address : Aurangabad\n\n"/>
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+8.Company Name: Rushikesh Krishi seva Kendra\n
+  Address : Babhultel, Aurangabad\n\n"/>
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+9.Company Name: Top research Hi crop Pvt Ltd\n
+  Address : Jay Prakash Lalchand Darak,JadhavWadi,Aurangabad\n\n"/>
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+10.Company Name: Bisco biosciences Pvt Ltd\n
+  Address : Plot no 36, near Gurudwara,Sindhy Colony,Jalna road\n\n"/>
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+11.Company Name: Bayer bio sciences Pvt Ltd\n
+  Address : Near Bus Stand,Aurangabad\n\n"/>
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+12.Company Name: Nunhems India Pvt Ltd\n
+  Address : Jalgaon Road,Sawangi ,Aurangabad\n\n"/>
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+13.Company Name: Sungro Seeds Pvt Ltd\n
+   Address : 1st Floor,Laxman Chawadi,Mondha road,Aurangabad\n\n"/>
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+14.Company Name: Spriha Niosciences Pvt Ltd\n
+   Address : Vijay Bejjand machinary,Waluj,Aurangabad\n\n"/>
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+15.Company Name: Sakshi krishi Seva Kendra\n
+   Address : H.No 55/500 Wangi\n\n"/>
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+16.Company Name: Rudra Seeds\n
+   Address : Anandashram Campus,Daultabad\n\n"/>
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+17.Company Name: Ganga Kaveri Seeds\n
+   Address : Baukhan Estate,Bashirbagh\n\n"/>
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+18.Company Name: Delta Agrigenetics\n
+   Address : Mhada Colony,Dhoot Hospital,Jalna Road\n\n"/>
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+19.Company Name: Bhoomi Bio Seeds\n
+   Address : Gokul seeds,Jadhavmandi\n\n"/>
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+20.Company Name: East West Seeds\n
+   Address : Narayanpur,Gangapur\n\n"/>
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+21.Company Name: Annapurna Seeds\n
+   Address : Bhavar Complex,Jalgaon road,Aurangabad\n\n"/>
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+22.Company Name: Aniket Keishi Seva Kendra\n
+   Address : Devgaon Rangari\n\n"/>
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+23.Company Name: GEO Biotechnologies\n
+   Address : Agrawal and Sons,Colgate factory,MIDC,Waluj\n\n"/>
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+24.Company Name: Shriram Bioseed Genetics\n
+   Address : Sector-C,Sara Nagar,N1,Cidco\n\n"/>
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+25.Company Name: Suryavanshi Agri Pvt Ltd\n
+   Address : Plot no 7, General Shopping Centre,Navin Mondha\n\n"/>
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+26.Company Name: ECO Seeds\n
+   Address : Raguvanshi,Plot no 77,Mayanagar,Cidco\n\n"/>
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+27.Company Name: R J Biotech Pvt Ltd\n
+   Address : siddharth Arcade,Station Road\n\n"/>
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+28.Company Name: Meena Seeds\n
+   Address : C-6,Muktanand\n\n"/>
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+29.Company Name: Arya Hybrid Seeds\n
+   Address : Chitegaon Paithan Aurangabad\n\n"/>
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+30.Company Name: PHI Seeds Pvt Ltd\n
+   Address : Prekh Corporation,Ashirvad,Thakrenagar,Cidco\n\n"/>
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+31.Company Name: Kirtiman Agro Genetics Ltd\n
+   Address : Govind Nagar,Near RTO,Station road\n\n"/>
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+32.Company Name: Yaaganti Seeds\n
+   Address : Plot no 193,M3 Garden,N3 Cidco,Aurangabad\n\n"/>
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+33.Company Name: Great Seed International Pvt Ltd\n
+   Address : Old Strelite,Behind New star hotel,MIDC,Waluj\n\n"/>
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+34.Company Name: Taj Seeds\n
+   Address : Deulgaon bazar,Sillod\n\n"/>
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="
+35.Company Name: Pachganga Seeds\n
+   Address : F 95,MIDC,Waluj\n\n"/>
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

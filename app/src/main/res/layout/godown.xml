@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/nbg">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/titlego"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btnformate1"
+                android:gravity="center"
+                android:padding="14dp"
+                android:text="GODOWN AND COLD STORAGE"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="\n
+Godowns in Marathwada region:\n" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text=" Aurangabad\n"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+1.Warehouse: CHIKALTHANA\n
+  Manager Name: G R Ghodapkar\n
+  Address : Plot no 91,MIDC Area,Chikalthana-431210,Aurangabad.\n
+  Office : 0240-2485931\n
+  Capacity : 6122\n\n"/>
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+2.Warehouse: WALUJ-ICD\n
+  Manager Name: P R Ratwarkar\n
+  Address : ICD,Plot no M-22, MIDC Area 4,Bajaj Nagar,Waluj,Aurangabad-431136\n
+  Office : 0240-2564240\n
+  Capacity : 4947\n\n"/>
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text=" Nanded\n"/>
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+1.Warehouse: NANDED\n
+  Manager Name: S G Halde\n
+  Address : Jawahar Nagar Tappa, Nanded -431603\n
+  Office : 02462-604444\n
+  Capacity : 31467\n\n"/>
+
+
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text=" Latur\n"/>
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+1.Warehouse: LATUR-1\n
+  Manager Name: P.V.A.Sharma \n
+  Address : MIDC, Plot no-A-2/1,Latur-413531\n
+  Office : 2382224059\n
+  Capacity : 8360\n\n"/>
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+2.Warehouse: LATUR-2\n
+  Manager Name: R.N.Lohar \n
+  Address : Raj Traa Warehouses,Nandgaon-Bhamri road,Latur-413512\n
+  Office : 2382220011\n
+  Capacity : 7125\n\n"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="
+                Cold Storage :\n "/>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text=" Aurangabad\n"/>
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+1.Warehouse: SURICHI MAHILA GRIHUDYOG\n
+  Address : P 25,MIDC Area,Chikalthana-431210, Aurangabad.\n
+  Office : 9422209086\n\n"/>
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+2.Warehouse: MARATHWADA COLD STORAGE\n
+  Address : Gut 15 ,Pune road,Shivrai Phata\n\n"/>
+
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+3.Warehouse: SAI COLD STORAGE\n
+  Address :   Gate no 204, Paithan Road\n
+  Office : 7798197242\n\n"/>
+
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+4.Warehouse: HORIZON COLD STORAGE\n
+  Address : B 20 ,MIDC, Chikalthana\n
+  Office : 9371796475\n\n"/>
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+5.Warehouse: MASTY VEVSAYB SOCIETY\n
+  Address :F 20/2 MIDC Chikalthana\n
+  Office : 9422209845\n\n"/>
+
+            <TextView
+                android:id="@+id/textview35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text=" Latur\n"/>
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+1.Warehouse: ShreeMauli Warehouse\n
+  Address :kava Road, Latur\n
+  Office : 9923845000\n\n"/>
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+2.Warehouse: R P AgroExpert\n
+  Address : Ashta \n
+  Office: 9423075955\n\n" />
+
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+ 3.Warehouse: OmMauli AgroExpert\n
+   Address : At.Post Ashtha Tah.latur\n
+   Office : 9423075955\n\n"/>
+
+
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+ 4.Warehouse: Madhav AgroExpert\n
+  Address : At Post. Talni Tah.Renapur, Latur\n
+  Office : 9422469106\n\n"/>
+
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text=" Jalna\n"/>
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+1. Warehouse: Arihant Cold Storage \n
+  Address : GAT No.92 Gundewadi,jalna-bhok\n
+  Office : 9420220323\n\n"/>
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+2.Warehouse: Jalna Seed Processing and Refigeration\n
+  Address : Plot no.11 C,Old MIDC Jalna\n
+  Office : 9890161673\n\n"/>
+
+
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+ 3.Warehouse: BEJO SHITAL SEEDS PRIVATE LTD\n
+  Address : Mantha Road,Jalna\n
+  Office : 9422215290\n\n"/>
+
+
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+4.Warehouse: Rajeshwar Shital Group\n
+  Address : Nava Mondha Road Jalna\n
+  Office : 9422396810\n"/>
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+ 5.Warehouse:Mango Expert Facility Centre \n
+  Address : Maharashtra State Agriculture Marketing Board Mango E\n
+  Office : 9923839077\n"/>
+
+            <TextView
+                android:id="@+id/textview84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text=" Nanded\n"/>
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="
+1. Warehouse:Ma Saheb Datar Cold Storage\n
+   Address : Plot no.T41, MIDC Nanded\n
+   Office : 9370752111\n"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
